@@ -18,6 +18,7 @@ module.exports = {
       },
     ],
   ],
+  base:'/akio-blog/',
   theme: "reco",
   themeConfig: {
     nav: [
