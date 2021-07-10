@@ -15,4 +15,4 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_BRANCH: host-pages
         BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: docs/public
+        BUILD_DIR: public
