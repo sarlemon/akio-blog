@@ -1,4 +1,3 @@
-name: A TO A:HOST_PAGES
 on: [push]
 jobs:
   build-and-deploy:
