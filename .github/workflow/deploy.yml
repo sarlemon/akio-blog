@@ -1,0 +1,16 @@
+name: A TO A:HOST_PAGES
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Build and Deploy
+      uses: sarlemon/deploy@master
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        TARGET_BRANCH: host-pages
+        BUILD_SCRIPT: yarn && yarn build
+        BUILD_DIR: public
