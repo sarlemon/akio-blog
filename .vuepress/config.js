@@ -32,11 +32,11 @@ module.exports = {
         link: "/timeline/",
         icon: "reco-date",
       },
-      {
-        text: "读书笔记",
-        icon: "reco-message",
-        link: "/docs/read-notes/",
-      },
+      // {
+      //   text: "读书笔记",
+      //   icon: "reco-message",
+      //   link: "/docs/read-notes/",
+      // },
       {
         text: "GitHub",
         link: "https://github.com/sarlemon",

@@ -1,6 +1,5 @@
 ---
-title: 关于我
+title: 读书笔记
 date: 2021-07-07
 ---
 
-About me.
